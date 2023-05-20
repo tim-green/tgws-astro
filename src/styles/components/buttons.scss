@@ -1,0 +1,106 @@
+/*
+
+  Button
+  +
+
+*/
+
+.button {
+	align-items: center;
+    background: rgba(20, 20, 20, .9);
+	color: $white;
+	cursor: pointer;
+	border-radius: 4px;
+	display: inline-flex;
+	font-size: 1rem;
+	font-weight: 500;
+	min-height: 3rem;
+	line-height: 3rem;
+	padding: 0 1rem;
+
+    &:active {
+        box-shadow: rgba(39, 188, 114, .2) 0 0 0 4px;
+        outline: 0
+    }
+    
+    &:focus {
+        box-shadow: rgba(39, 188, 114, .2) 0 0 0 4px;
+        outline: 0
+    }
+    
+    span {
+        display: inline-block;
+        margin: 0 auto;
+        position: relative;
+        z-index: 3;
+    }
+
+    .icon {
+        margin-left: .8rem;
+        line-height: 0;
+        font-size: 150%;
+    }
+
+    .label {
+        flex: 1;
+    }
+}
+
+.button.primary {
+	background-image: linear-gradient(160deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+	color: rgba(255, 255, 255, 1);
+}
+
+.button.secondary {
+	background: rgba(20,20,20,.9);
+}
+
+.button-shadow {
+	box-shadow: rgba(0, 0, 0, .9) 0 1rem 2rem -1rem;
+}
+
+.button-rounded {
+	border-radius: 3rem;
+	min-width: 3rem;
+	padding: 0 1.5rem;
+}
+
+.button-icon {
+	padding: 0;
+}
+
+.button-icon .icon {
+	margin: 0 auto;
+}
+
+.back-to-top{
+    a{
+        display: block;
+        text-align: center;
+        text-indent: -1px;
+    }
+    i{
+        margin:0;
+        padding: 0;
+    }
+}
+
+//js-enabled (modal, archive)
+.js-enabled #modal-profile-button,
+.js-enabled #archive-work-button  {
+	align-items: center;
+	display: flex;
+}
+
+
+//archive button
+#archive-work-button {
+	margin: max(1.5rem, calc(var(--padding) / 2)) 0 0;
+}
+
+// #archive-work-button .icon {
+// }
+
+#archive-work-button .icon svg {
+	transform: scale(0.6);
+}

@@ -1,0 +1,42 @@
+/*
+
+  Style specific for SWC posts shown here
+  +
+
+*/
+
+//hide sharedaddy on TGWS
+.sharedaddy{
+    display: none;
+}
+
+.moretag{
+    display: flex;
+}
+
+.swc-read{
+    
+    display: flex;
+}
+.post-excerpt{
+    @extend .content;
+
+}
+
+.more-link{
+    @extend .button,.primary;
+    @extend .button-rounded;
+    @extend #modal-profile-button;
+
+    &:hover{
+	  transform: translateY(-0.5rem);
+      box-shadow: none !important;
+    }
+
+    &:after{
+        margin-left: .8rem;
+        font-family: "Font Awesome 5 Pro"; 
+        font-weight: 300; 
+        content: "\f061";
+    }
+}
