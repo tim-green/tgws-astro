@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "TimGreen.ws",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,6 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.4.1"
+    "@astrojs/react": "^2.2.0",
+    "astro": "^2.4.1",
+    "sass": "^1.62.1"
   }
 }
