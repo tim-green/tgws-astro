@@ -13,5 +13,8 @@
     "@astrojs/react": "^2.2.0",
     "astro": "^2.4.1",
     "sass": "^1.62.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-yaml": "^4.1.0"
   }
 }
