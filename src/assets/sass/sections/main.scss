@@ -1,0 +1,50 @@
+/*
+
+  Main
+  +
+
+*/
+
+::selection, ::-moz-selection{
+ 	//background: rgba($color: $black, $alpha: 0.6);
+ 	background: rgba(17, 153, 142, 1);
+	color: $white;
+  
+}
+
+.content p {
+	font-size: var(--medium-paragraph);
+	font-weight: 400;
+	letter-spacing: .133px;
+	line-height: 1.5;
+	margin: 1.6rem 0;
+	max-width: 67rem
+}
+.content.large-paragraph p {
+	font-size: var(--large-paragraph)
+}
+.display-heading {
+	font-size: var(--display-heading);
+	letter-spacing: -.133px;
+	font-weight: 700;
+	line-height: 1.1
+}
+.second-level-heading{
+	margin-top: 4rem
+}
+
+.footnote {
+	color: rgba(255, 255, 255, .3);
+	font-size: var(--footnote);
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-weight: 400;
+	letter-spacing: .233px;
+	line-height: 1.5;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	user-select: none;
+	width: 80%;
+}
+.full-viewport {
+	min-height: 100vh
+}

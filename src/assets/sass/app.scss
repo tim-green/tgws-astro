@@ -1,0 +1,64 @@
+/*!
+
+  This is the core import file for TimGreen.ws. 
+  Site by: Tim Green
+
+*/
+
+/*
+ ==== modules ====
+*/
+@import "modules/root";
+@import "modules/font-face";
+@import "modules/mixins";
+@import "modules/variables";
+@import "modules/base";
+@import "modules/typography";
+
+/*
+ ==== Plugins ====
+*/
+
+@import "plugins/swiper";
+
+/*
+ ==== Components including both media state & queries from modules ====
+*/
+
+@import "components/gallery";
+@import "components/sticky-menu";
+@import "components/buttons";
+@import "components/cookies";
+@import "components/icons";
+@import "components/modal";
+@import "components/neon-gradient";
+@import "components/the-networks";
+@import "components/selected-work";
+@import "components/skills";
+@import "components/timeline";
+@import "components/tools";
+@import "components/swc-blog";
+@import "components/react-work";
+@import "modules/media-states";
+
+/*
+ ==== Sections ====
+*/
+
+@import "sections/main";
+@import "sections/header";
+@import "sections/footer";
+
+
+/*
+ ==== Pages ====
+*/
+
+@import "pages/pages";
+
+/*
+ ==== Media Queries ====
+*/
+
+@import "modules/media-queries";
+
