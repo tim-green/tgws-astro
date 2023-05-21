@@ -3,10 +3,16 @@ import '../assets/sass/app.scss';
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Header from '../components/Header.astro';
+import About from '../components/About.astro';
 ---
 
+<Layout title="Personal Site of Tim Green, a Front End Developer currently living in Canberra, Australia">
 	<main>
 		<Header />
+		<About />
+		<main id="main">
+
+		</main>
 		<ul role="list" class="link-card-grid">
 			<Card
 				href="https://docs.astro.build/"
