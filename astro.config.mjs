@@ -6,4 +6,7 @@ import yaml from '@rollup/plugin-yaml';
 export default defineConfig({
     // React
     integrations: [react()],
+    vite: {
+      plugins: [yaml()]
+    }
   });
